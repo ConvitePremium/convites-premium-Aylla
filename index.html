@@ -631,7 +631,13 @@
         $("mapBtn").addEventListener("click", (e)=>{
           if(document.body.classList.contains("editor-on")) return;
           e.preventDefault(); e.stopPropagation();
-          window.open(C.mapa || "#", "_blank");
+          // Navega na mesma aba para evitar bloqueios de pop-up em navegadores internos.
+          const destinoMapa = String(C.mapa || "").trim();
+          if(/^https:\/\//i.test(destinoMapa)) {
+            window.location.assign(destinoMapa);
+          } else {
+            console.error("Link de localização inválido no config.js:", destinoMapa);
+          }
         });
       }
       if(hasGift && $("giftBtn")){
