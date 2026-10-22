@@ -89,7 +89,8 @@ window.CONFIG = {
   // mostrarTexto: true mostra “Voltar”; false deixa apenas a área clicável.
   // A posição pode ser alterada no editor ?editor=1.
   botoesVoltar: {
-    presentes: { mostrarTexto:false, posicao: {"left":36.05943116014377,"top":81.98895109171892,"width":29.236440445287545,"height":9.75627680988067} }
+    presentes: { mostrarTexto:false, posicao: {"left":25.631303664137377,"top":78.3065698918812,"width":48.865830296525566,"height":5.843731969629566} },
+    contagem: { mostrarTexto:false, posicao: {"left":25.578603609225237,"top":78.71519334632525,"width":47.60384946585463,"height":5.769851175010142} }
   },
 
   // ----- POSIÇÃO DOS BOTÕES NA TELA PRINCIPAL ----------------------------
@@ -98,10 +99,10 @@ window.CONFIG = {
   //   left/top: canto superior esquerdo do botão
   //   width/height: tamanho do botão
     hotspots: {
-        confirm: { left:53.9794625528754, top:86.01265832679307, width:30.889559511821087, height:8.917614410407161 },
-        gift: { left:14.72901044516788, top:85.65656941780536, width:32.85782747603834, height:9.909305144152878 },
-        countdown: { left:53.9794625528754, top:86.01265832679307, width:30.889559511821087, height:8.917614410407161 },
-        map: { left:14.72901044516788, top:85.65656941780536, width:32.85782747603834, height:9.909305144152878 }
+        confirm: { left:21.877232371166137, top:52.52588988277601, width:24.75535860826677, height:10.988964260984288 },
+        gift: { left:23.725818676996955, top:67.81997155528248, width:20.58944126896965, height:12.325869727064248 },
+        countdown: { left:56.02417538734025, top:68.29114228447689, width:21.074872386222047, height:12.600013169265358 },
+        map: { left:53.98779014764392, top:52.28487840423987, width:23.043124750399357, height:10.94498006944144 }
   },
 
   // ----- CONTAGEM REGRESSIVA ---------------------------------------------
@@ -116,8 +117,8 @@ window.CONFIG = {
     textoFinal: "A festa começou!",
     corNumero: "#ffffff",
     corLegenda: "#ffffff",
-    posicao: { left:22.5175531649361, top:51.45224389795505, width:56.19169641074281, height:6.218642289127358 }
-  },
+    posicao: { left:12.293910992412137, top:50.87686991496254, width:74.59425232128594, height:5.758341346831303 }
+  }
 
   // ----- MÚSICA DE FUNDO -------------------------------------------------
   // Volumes independentes: durante o vídeo e depois, no convite principal.
