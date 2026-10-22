@@ -100,7 +100,7 @@ window.CONFIG = {
     hotspots: {
         confirm: { left:53.9794625528754, top:86.01265832679307, width:30.889559511821087, height:8.917614410407161 },
         gift: { left:14.72901044516788, top:85.65656941780536, width:32.85782747603834, height:9.909305144152878 },
-        cowntdown: { left:53.9794625528754, top:86.01265832679307, width:30.889559511821087, height:8.917614410407161 },
+        countdown: { left:53.9794625528754, top:86.01265832679307, width:30.889559511821087, height:8.917614410407161 },
         map: { left:14.72901044516788, top:85.65656941780536, width:32.85782747603834, height:9.909305144152878 }
   },
 
@@ -112,7 +112,7 @@ window.CONFIG = {
   // corLegenda altera a cor de Meses, Dias, Horas, Min e Seg.
   // Aceita hexadecimal, nome de cor ou rgb().
   contagem: {
-    dataEvento: "2026-08-29T18:30:00",
+    dataEvento: "2026-11-14T18:00:00",
     textoFinal: "A festa começou!",
     corNumero: "#ffffff",
     corLegenda: "#ffffff",
