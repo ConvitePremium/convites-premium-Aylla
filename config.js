@@ -23,7 +23,7 @@ window.CONFIG = {
   // ----- IDENTIDADE DO CONVITE -------------------------------------------
   // Nome do aniversariante. Aparece no título da aba do navegador e nos
   // textos automáticos do convite.
-  nome: "Aylla",
+  nome: "Maya",
 
   // ----- WHATSAPP (CONFIRMAR PRESENÇA) -----------------------------------
   // numero: DDI + DDD + número, SÓ DÍGITOS (sem +, espaço, parênteses ou traço).
@@ -31,13 +31,13 @@ window.CONFIG = {
   // mensagem: texto que já vem pré-preenchido quando a pessoa abre o WhatsApp.
   whatsapp: {
     numero: "5512992193021",
-    mensagem: "Olá! Confirmo minha presença no aniversário da Aylla."
+    mensagem: "Olá! Confirmo minha presença no aniversário da Maya."
   },
 
   // ----- LOCALIZAÇÃO (BOTÃO MAPA) ----------------------------------------
   // Link completo do Google Maps. Abra o local no Maps, clique em "Compartilar"
   // -> "Copiar link" e cole aqui (mantenha as aspas).
-  mapa: "https://maps.app.goo.gl/vkoPgAUJgsdwzeK98",
+  mapa: "https://maps.app.goo.gl/Ftiim54vVJd4DLYt5",
 
   // ----- QUAIS TELAS APARECEM --------------------------------------------
   // video:     true  -> toca o vídeo (assets/video.mp4) depois da abertura.
@@ -52,17 +52,6 @@ window.CONFIG = {
     dresscode: false,
     manual: false,
     contagem: true
-  },
-
-  // ----- PIX OPCIONAL (SUGESTÕES DE PRESENTES) ---------------------------
-  // ativo: true  -> cria uma área clicável na tela de presentes.
-  //        false -> não cria a área de PIX e o convite continua como antes.
-  // chave: é exatamente o texto que será copiado quando o convidado clicar.
-  // posicao: ajuste pelo editor visual (?editor=1), escolhendo “PIX (copiar chave)”.
-  pix: {
-    ativo: false,
-    chave: "00",
-    posicao: {"left":16.8,"top":64.0,"width":66.0,"height":8.2}
   },
 
   // ----- TEXTOS DOS BOTÕES -----------------------------------------------
@@ -89,8 +78,8 @@ window.CONFIG = {
   // mostrarTexto: true mostra “Voltar”; false deixa apenas a área clicável.
   // A posição pode ser alterada no editor ?editor=1.
   botoesVoltar: {
-    presentes: { mostrarTexto:false, posicao: {"left":25.631303664137377,"top":78.3065698918812,"width":48.865830296525566,"height":5.843731969629566} },
-    contagem: { mostrarTexto:false, posicao: {"left":25.578603609225237,"top":78.71519334632525,"width":47.60384946585463,"height":5.769851175010142} }
+    presentes: { mostrarTexto:false, posicao: {"left":36.00671550519169,"top":85.84983764929667,"width":28.792338508386578,"height":5.079395371810943} },
+    contagem: { mostrarTexto:false, posicao: {"left":35.393290734824284,"top":85.50460590666134,"width":29.405747678714057,"height":5.309555171188597} }
   },
 
   // ----- POSIÇÃO DOS BOTÕES NA TELA PRINCIPAL ----------------------------
@@ -99,10 +88,10 @@ window.CONFIG = {
   //   left/top: canto superior esquerdo do botão
   //   width/height: tamanho do botão
     hotspots: {
-        confirm: { left:21.877232371166137, top:52.52588988277601, width:24.75535860826677, height:10.988964260984288 },
-        gift: { left:23.725818676996955, top:67.81997155528248, width:20.58944126896965, height:12.325869727064248 },
-        countdown: { left:56.02417538734025, top:68.29114228447689, width:21.074872386222047, height:12.600013169265358 },
-        map: { left:53.98779014764392, top:52.28487840423987, width:23.043124750399357, height:10.94498006944144 }
+        confirm: { left:30.152552103435234, top:68.75141688824222, width:15.963051299960064, height:8.457313468111106 },
+        map: { left:54.5997314905745, top:68.40616244113869, width:15.816417584944034, height:8.522993865832865 },
+        gift: { left:30.268943427396323, top:80.82343586222751, width:15.68212110623003, height:8.758561567922982 },
+        countdown: { left:54.19227547112636, top:80.82344464173777, width:16.091060553115014, height:9.218853730708798 }
   },
 
   // ----- CONTAGEM REGRESSIVA ---------------------------------------------
@@ -113,19 +102,17 @@ window.CONFIG = {
   // corLegenda altera a cor de Meses, Dias, Horas, Min e Seg.
   // Aceita hexadecimal, nome de cor ou rgb().
   contagem: {
-    dataEvento: "2026-11-14T18:00:00",
+    dataEvento: "2026-10-17T14:00:00",
     textoFinal: "A festa começou!",
     corNumero: "#ffffff",
     corLegenda: "#ffffff",
-    posicao: { left:12.293910992412137, top:50.87686991496254, width:74.59425232128594, height:5.758341346831303 }
-  }
+    posicao: { left:21.495188947683705, top:57.20598372788013, width:56.19169641074281, height:6.218642289127358 }
+  },
 
   // ----- MÚSICA DE FUNDO -------------------------------------------------
-  // Volumes independentes: durante o vídeo e depois, no convite principal.
-  // A música NÃO é pausada na troca, o que ajuda na compatibilidade com Safari/iPhone.
+  // volume: de 0 (mudo) a 1 (máximo). O padrão 0.30 é agradável e não
+  //         briga com o áudio do vídeo.
   musica: {
-    volume: 0.30,
-    volumeVideo: 0.10,
-    volumePrincipal: 0.30
+    volume: 0.30
   }
 };
