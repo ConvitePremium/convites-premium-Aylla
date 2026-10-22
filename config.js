@@ -23,21 +23,21 @@ window.CONFIG = {
   // ----- IDENTIDADE DO CONVITE -------------------------------------------
   // Nome do aniversariante. Aparece no título da aba do navegador e nos
   // textos automáticos do convite.
-  nome: "Maitê",
+  nome: "Aylla",
 
   // ----- WHATSAPP (CONFIRMAR PRESENÇA) -----------------------------------
   // numero: DDI + DDD + número, SÓ DÍGITOS (sem +, espaço, parênteses ou traço).
   //         Ex.: 55 (Brasil) + 31 (DDD) + 985657116 -> "5531985657116"
   // mensagem: texto que já vem pré-preenchido quando a pessoa abre o WhatsApp.
   whatsapp: {
-    numero: "5591985613837",
-    mensagem: "Olá! Confirmo minha presença no aniversário da Maitê."
+    numero: "5512992193021",
+    mensagem: "Olá! Confirmo minha presença no aniversário da Aylla."
   },
 
   // ----- LOCALIZAÇÃO (BOTÃO MAPA) ----------------------------------------
   // Link completo do Google Maps. Abra o local no Maps, clique em "Compartilar"
   // -> "Copiar link" e cole aqui (mantenha as aspas).
-  mapa: "https://share.google/7oyi4t2qFT3dR1Bpf",
+  mapa: "https://maps.app.goo.gl/vkoPgAUJgsdwzeK98",
 
   // ----- QUAIS TELAS APARECEM --------------------------------------------
   // video:     true  -> toca o vídeo (assets/video.mp4) depois da abertura.
@@ -47,11 +47,11 @@ window.CONFIG = {
   telas: {
     video: true,
     whatsapp: true,
-    localizacao: false,
+    localizacao: true,
     presentes: true,
     dresscode: false,
     manual: false,
-    contagem: false
+    contagem: true
   },
 
   // ----- PIX OPCIONAL (SUGESTÕES DE PRESENTES) ---------------------------
@@ -121,8 +121,8 @@ window.CONFIG = {
   // Volumes independentes: durante o vídeo e depois, no convite principal.
   // A música NÃO é pausada na troca, o que ajuda na compatibilidade com Safari/iPhone.
   musica: {
-    volume: 0.20,
-    volumeVideo: 0.08,
-    volumePrincipal: 0.20
+    volume: 0.30,
+    volumeVideo: 0.10,
+    volumePrincipal: 0.30
   }
 };
